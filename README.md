@@ -166,7 +166,7 @@ Sample project illustrate how to handle role based authorization in Asp.Net Web 
       }
   }	 
 ```
-## Finally create tha API controller and get role and userid from base api controller
+## Finally create the API controller and get role and userid from base api controller
 ```c#
 	[ApiAuthorize]
 	public class HelloApiController : BaseApiController
